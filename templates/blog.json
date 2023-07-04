@@ -2,6 +2,7 @@
   "sections": {
     "main": {
       "type": "main-blog",
+      "disabled": true,
       "settings": {
         "blog_show_rss": false,
         "blog_show_tags": true,
@@ -17,9 +18,144 @@
         "overlay_position_y": 70,
         "mobile_text_below": false
       }
+    },
+    "17c5beaa-24ea-4c58-a74d-ad5b1efb9bf7": {
+      "type": "blog-slideshow",
+      "blocks": {
+        "template--19735946428737__17c5beaa-24ea-4c58-a74d-ad5b1efb9bf7-16882232191b5a0da8-0": {
+          "type": "image",
+          "settings": {
+            "image_position": "center center",
+            "image_link": "",
+            "color_overlay_bg": "#ffffff",
+            "overlay_opacity": 80,
+            "color_overlay_text": "#333333",
+            "text_alignment": "center",
+            "overlay_position_x": 50,
+            "overlay_position_y": 80,
+            "overlay_title": "Slideshow",
+            "enlarge_title": false,
+            "styled_words": "",
+            "words_style": "stencil",
+            "highlight_words_top": 10,
+            "highlight_color": "#ffffff",
+            "styled_word_color": "#b5e0fa",
+            "overlay_text": "Use this section to welcome customers to your store, show off your images or display a promotion",
+            "enlarge_text": false,
+            "overlay_url_text_1": "",
+            "overlay_url_1": "",
+            "overlay_url_text_2": "",
+            "overlay_url_2": "",
+            "overlay_url_style": "button_1",
+            "color_label_background": "#ffffff",
+            "color_label_text": "#333333",
+            "show_chevron": true,
+            "product_id_1": "",
+            "chevron_position_1": "right",
+            "label_position_x_1": 20,
+            "label_position_y_1": 30,
+            "product_id_2": "",
+            "chevron_position_2": "right",
+            "label_position_x_2": 80,
+            "label_position_y_2": 50
+          }
+        },
+        "template--19735946428737__17c5beaa-24ea-4c58-a74d-ad5b1efb9bf7-16882232191b5a0da8-1": {
+          "type": "image",
+          "settings": {
+            "image_position": "center center",
+            "image_link": "",
+            "color_overlay_bg": "#ffffff",
+            "overlay_opacity": 80,
+            "color_overlay_text": "#333333",
+            "text_alignment": "center",
+            "overlay_position_x": 50,
+            "overlay_position_y": 80,
+            "overlay_title": "Slideshow",
+            "enlarge_title": false,
+            "styled_words": "",
+            "words_style": "stencil",
+            "highlight_words_top": 10,
+            "highlight_color": "#ffffff",
+            "styled_word_color": "#b5e0fa",
+            "overlay_text": "Use this section to welcome customers to your store, show off your images or display a promotion",
+            "enlarge_text": false,
+            "overlay_url_text_1": "",
+            "overlay_url_1": "",
+            "overlay_url_text_2": "",
+            "overlay_url_2": "",
+            "overlay_url_style": "button_1",
+            "color_label_background": "#ffffff",
+            "color_label_text": "#333333",
+            "show_chevron": true,
+            "product_id_1": "",
+            "chevron_position_1": "right",
+            "label_position_x_1": 20,
+            "label_position_y_1": 30,
+            "product_id_2": "",
+            "chevron_position_2": "right",
+            "label_position_x_2": 80,
+            "label_position_y_2": 50
+          }
+        },
+        "3c629902-e6d6-4fdf-94d8-bb66e386b37b": {
+          "type": "image",
+          "settings": {
+            "image_position": "center center",
+            "image_link": "",
+            "color_overlay_bg": "#ffffff",
+            "overlay_opacity": 80,
+            "color_overlay_text": "#333333",
+            "text_alignment": "center",
+            "overlay_position_x": 50,
+            "overlay_position_y": 80,
+            "overlay_title": "Slideshow",
+            "enlarge_title": false,
+            "styled_words": "",
+            "words_style": "stencil",
+            "highlight_words_top": 10,
+            "highlight_color": "#ffffff",
+            "styled_word_color": "#b5e0fa",
+            "overlay_text": "Use this section to welcome customers to your store, show off your images or display a promotion",
+            "enlarge_text": false,
+            "overlay_url_text_1": "",
+            "overlay_url_1": "",
+            "overlay_url_text_2": "",
+            "overlay_url_2": "",
+            "overlay_url_style": "button_1",
+            "color_label_background": "#ffffff",
+            "color_label_text": "#333333",
+            "show_chevron": true,
+            "product_id_1": "",
+            "chevron_position_1": "right",
+            "label_position_x_1": 20,
+            "label_position_y_1": 30,
+            "product_id_2": "",
+            "chevron_position_2": "right",
+            "label_position_x_2": 80,
+            "label_position_y_2": 50
+          }
+        }
+      },
+      "block_order": [
+        "template--19735946428737__17c5beaa-24ea-4c58-a74d-ad5b1efb9bf7-16882232191b5a0da8-0",
+        "template--19735946428737__17c5beaa-24ea-4c58-a74d-ad5b1efb9bf7-16882232191b5a0da8-1",
+        "3c629902-e6d6-4fdf-94d8-bb66e386b37b"
+      ],
+      "settings": {
+        "height": "adapt",
+        "height_desktop": 600,
+        "height_mobile": 500,
+        "mobile_text_below": true,
+        "slide_transition": "fade",
+        "slideshow_autoplay": true,
+        "slideshow_autoplay_speed": 6,
+        "custom_class": ""
+      }
     }
   },
   "order": [
-    "main"
+    "main",
+    "17c5beaa-24ea-4c58-a74d-ad5b1efb9bf7"
   ]
 }
